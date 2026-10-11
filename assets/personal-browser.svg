@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#eeeeee"/>
+  <circle cx="250" cy="250" r="175" fill="none" stroke="#2a9d8f" stroke-width="12"/>
+  <g fill="none" stroke="#2a9d8f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><rect x="195" y="145" width="110" height="80" rx="10"/><path d="M195 168h110"/><circle cx="210" cy="157" r="3"/><circle cx="222" cy="157" r="3"/></g>
+  <text x="250" y="315" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="36" font-weight="600" fill="#2a9d8f">Personal Browser</text>
+  <text x="250" y="355" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="20" fill="#555555">PyQt6 desktop app</text>
+</svg>

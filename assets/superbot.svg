@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#eeeeee"/>
+  <circle cx="250" cy="250" r="175" fill="none" stroke="#5865f2" stroke-width="12"/>
+  <g fill="none" stroke="#5865f2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><rect x="205" y="160" width="90" height="65" rx="16"/><circle cx="232" cy="192" r="7"/><circle cx="268" cy="192" r="7"/><path d="M250 160v-20"/></g>
+  <text x="250" y="315" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="46" font-weight="600" fill="#5865f2">SuperBot</text>
+  <text x="250" y="355" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="20" fill="#555555">Discord bot · team project</text>
+</svg>
