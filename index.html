@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Technical-Skills</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contacts</a></li>
             </ul>
@@ -30,7 +30,7 @@
         </div>
         <div class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Technical-Skills</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
         </div>
@@ -42,7 +42,7 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Muhammad Wassay Shahid</h1>
-            <p class="section__text__p2">a Computer Scientist</p>
+            <p class="section__text__p2">Software Engineer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')"> Download CV</button>            
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -72,19 +72,26 @@
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/education.png" 
-                        alt="Education icon" 
+                        <img src="./assets/experience.png"
+                        alt="Experience icon"
+                        class="icon"/>
+                        <h2>Experience</h2>
+                        <h3>1+ year co-op &amp; internship</h3>
+                        <p>Software Engineer Co-op, Ontario Ministry of Public and Business Service Delivery<br/>AI/ML Intern, ArhamSoft</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png"
+                        alt="Education icon"
                         class="icon"/>
                         <h2>Education</h2>
-                        <h3>Mcmaster University</h3>
-                        <p>Bachelor of Computer Science</p>
+                        <h3>McMaster University</h3>
+                        <p>B.Sc. Computer Science, Honours Co-op<br/>Expected April 2027 · Dean's Honour List</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p class="about-me">I am a highly motivated Computer Science student at McMaster University with a deep passion for technology, particularly in software development. I thrive on tackling new challenges and seeking out opportunities to expand my knowledge and skills.
-                        I am currently seeking internships or co-op opportunities to gain valuable industry experience and further refine my expertise. I have a solid foundation in programming languages such as Python, JavaScript, Java, and C/C++, along with hands-on experience using tools like Git and Linux.
-                        In addition to my technical abilities, I highly value collaboration and community engagement. I’m always eager to connect with others in the tech space, whether for project collaborations or discussions about the latest in technology. Feel free to connect with me on LinkedIn.
-                        I am committed to continuous learning and always welcome feedback on my work.</p>
+                    <p class="about-me">I'm a Computer Science co-op student at McMaster University with over a year of industry experience in cloud apps, workflow automation and machine learning. These days I build serverless AI applications on AWS, like Syllabus Agent, which turns course outlines into a deadline tracker you can ask questions in plain English.</p>
+                    <p class="about-me">As a Software Engineer Co-op at the Ontario Ministry of Public and Business Service Delivery, I built web portals and automated service request workflows, cutting manual processing by 30%. Before that, as an AI/ML intern at ArhamSoft, I trained a PyTorch image classifier to 92% accuracy and shipped it as a real-time web app.</p>
+                    <p class="about-me">I work mostly in Python, TypeScript and React, and I care about software that is tested, observable and actually used. I'm looking for software development roles. Feel free to reach out on LinkedIn.</p>
                 </div>
             </div>
         </div>
@@ -93,195 +100,177 @@
 
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Technical-Skills</h1>
+        <h1 class="title">Skills &amp; Tools</h1>
         <div class="experience-details-container">
-          <div class="about-containers">
+          <div class="skills-grid">
             <div class="details-container">
               <h2 class="experience-sub-title">Languages</h2>
-              <div class="article-container">
+              <div class="article-container skills-list">
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Java</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Python</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Python</h3>
-                    <p>Experienced</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>TypeScript</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>C/C++</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>JavaScript</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>SQL</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Java</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>HTML/CSS</h3>
-                    <p>Experienced</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>C</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JavaScript</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>C++</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Haskell</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>SQL</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Elm</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>HTML/CSS</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Shell</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Bash</h3>
                 </article>
               </div>
             </div>
             <div class="details-container">
-              <h2 class="experience-sub-title">Frameworks/Tools</h2>
-              <div class="article-container">
+              <h2 class="experience-sub-title">AI / ML</h2>
+              <div class="article-container skills-list">
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Git</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Amazon Bedrock</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Visual Studio</h3>
-                    <p>Experienced</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>LLM Agents</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>PyCharm</h3>
-                    <p>Experienced</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>RAG &amp; Embeddings</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>IntelliJ</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>PyTorch</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Eclipse</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>TensorFlow</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>DBeaver</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>OpenCV</h3>
                 </article>
                 <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JUnit</h3>
-                    <p>Intermediate</p>
-                  </div>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>pandas</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>NumPy</h3>
                 </article>
               </div>
-            </div>            
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Cloud &amp; Platforms</h2>
+              <div class="article-container skills-list">
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>AWS Lambda</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Step Functions</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>API Gateway</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>S3</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>DynamoDB</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Cognito</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>AWS CDK</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>CloudWatch</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Azure</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Power Platform</h3>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frameworks &amp; Tools</h2>
+              <div class="article-container skills-list">
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>React</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Vite</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Flask</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>REST APIs</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Git</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>GitHub Actions</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>pytest</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>JUnit</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Linux</h3>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="" class="icon" />
+                  <h3>Agile</h3>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
         <img
@@ -296,44 +285,140 @@
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
 
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-1.png"
-                  alt="Project 1"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Moodify</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/WassayShahid/Moodify'"
-                >
-                  Github
-                </button>
+        <!-- To add a project, copy a project-card block and change its image, text, tags and link. -->
+        <div class="projects-grid">
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/syllabus-agent.svg" alt="Syllabus Agent logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  Upload a course outline and get every deadline, weight and exam
+                  on a timeline. An AI agent answers questions like "what's due
+                  next week?" and cites the syllabus line it came from.
+                </p>
+                <ul class="project-tags">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>AWS CDK</li>
+                  <li>Bedrock</li>
+                  <li>RAG</li>
+                </ul>
               </div>
             </div>
+            <h2 class="project-title">Syllabus Agent</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/WassayShahid/syllabus-agent" target="_blank" rel="noopener">Github</a>
+              <a class="btn btn-color-2 project-btn" href="https://main.dp12vdc4hv1rc.amplifyapp.com/" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </div>
 
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-2.png"
-                  alt="Project 2"
-                  class="project-img"
-                />
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/project-1.png" alt="Moodify logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  Reads your mood from your webcam and plays the songs from your
+                  Spotify playlist that match it. Face detection runs in the
+                  browser, so no video ever leaves your device.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>face-api.js</li>
+                  <li>Spotify API</li>
+                </ul>
               </div>
-              <h2 class="experience-sub-title project-title">Snake Game</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/WassayShahid/Snake-Game'"
-                >
-                  Github
-                </button>
+            </div>
+            <h2 class="project-title">Moodify</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/WassayShahid/Moodify" target="_blank" rel="noopener">Github</a>
+            </div>
+          </div>
+
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/classifier.svg" alt="Classifier logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  A convolutional neural network that sorts CIFAR-10 images into
+                  10 classes, tuned with data augmentation and learning-rate
+                  scheduling to reach 92% test accuracy.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>PyTorch</li>
+                  <li>Computer Vision</li>
+                </ul>
               </div>
+            </div>
+            <h2 class="project-title">Image Classifier</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/WassayShahid/Classifier" target="_blank" rel="noopener">Github</a>
+              <a class="btn btn-color-2 project-btn" href="https://cifar-10py-4clvmupv3zdm3yvbsmzmbj.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/superbot.svg" alt="SuperBot logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  A modular Discord bot built with friends, featuring Instagram
+                  reposting, Gemini AI chat and an in-chat API client. I built
+                  its automatic message translation feature.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>discord.py</li>
+                  <li>Team project</li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="project-title">SuperBot</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/The-Mandem/SuperBot" target="_blank" rel="noopener">Github</a>
+            </div>
+          </div>
+
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/personal-browser.svg" alt="Personal Browser logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  A desktop web browser with tabs, bookmarks, history and
+                  downloads, built on the Chromium engine through Qt WebEngine.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>PyQt6</li>
+                  <li>Qt WebEngine</li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="project-title">Personal Browser</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/WassayShahid/Personal-Browser" target="_blank" rel="noopener">Github</a>
+            </div>
+          </div>
+
+          <div class="project-card" tabindex="0">
+            <div class="project-media">
+              <img src="./assets/project-2.png" alt="Snake Game logo" class="project-img" />
+              <div class="project-overlay">
+                <p class="project-desc">
+                  The classic arcade game: steer the snake with the arrow keys,
+                  eat fruit to grow and rack up points without hitting a wall
+                  or your own tail.
+                </p>
+                <ul class="project-tags">
+                  <li>Python</li>
+                  <li>Pygame</li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="project-title">Snake Game</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/WassayShahid/Snake-Game" target="_blank" rel="noopener">Github</a>
             </div>
           </div>
         </div>

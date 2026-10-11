@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#eeeeee"/>
+  <circle cx="250" cy="250" r="175" fill="none" stroke="#3b6fd8" stroke-width="12"/>
+  <g fill="none" stroke="#3b6fd8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><circle cx="210" cy="190" r="12"/><circle cx="250" cy="160" r="12"/><circle cx="250" cy="220" r="12"/><circle cx="290" cy="190" r="12"/><path d="M221 184l18-16M221 196l18 16M261 168l18 16M261 212l18-16"/></g>
+  <text x="250" y="315" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="46" font-weight="600" fill="#3b6fd8">Classifier</text>
+  <text x="250" y="355" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="20" fill="#555555">CIFAR-10 · PyTorch</text>
+</svg>
