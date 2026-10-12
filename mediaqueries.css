@@ -1,103 +1,75 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
   #profile,
   .section-container {
-    display: block;
+    flex-direction: column;
+    gap: 2.5rem;
   }
-  .arrow {
-    display: none;
+  #profile {
+    min-height: auto;
+    padding-top: 3rem;
   }
-  section,
-  .section-container {
-    height: fit-content;
+  .section__pic-container,
+  #about .section__pic-container {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
   }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+  section {
+    padding-top: 4rem;
   }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
+  #profile .title {
+    font-size: 2.25rem;
   }
-  article {
-    font-size: 1rem;
-  }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.75rem;
   }
   .section__text__p2 {
     font-size: 1.25rem;
   }
-  .title {
-    font-size: 2rem;
+  .section__pic-container,
+  #about .section__pic-container {
+    width: 220px;
+    height: 220px;
   }
-  .text-container {
-    text-align: justify;
+  .about-containers {
+    flex-direction: column;
+  }
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+  .contact-info-container {
+    justify-content: flex-start;
+  }
+  .contact-info-container p {
+    font-size: 0.95rem;
+  }
+  .logo {
+    font-size: 1.05rem;
+  }
+  footer .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem;
   }
 }
